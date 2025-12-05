@@ -1,21 +1,54 @@
-# About the App
+# ToDo List Web Application
 
-ToDo list is a web application to save tasks and edit and delete and change its status from todo to completed and vice versa
+A streamlined task-management platform designed to help users capture, track, update, and organize their daily tasks with ease. The application supports full task lifecycle operations, from creation to soft-deletion, offering a simple yet efficient productivity workflow.
 
-# Features
+---
 
-Register as a user - with mandatory details like username, password and mail id and other optional details like mobile number, DOB and address etc...
-Login as a user using ur login credentials - username and password
-Create/Add new task
-Mark task as completed / Todo
-Edit task
-Delete tasks from both todo and complted list - its a soft delete which can be accessed by user and can be retreived when accidently done
+## Features
 
-# Technologies used:
+### User Management
 
-Angular for FE.
-.net - C# for BE.
-SSMS for DB.
+- **User Registration**  
+  Capture mandatory information such as _username_, _password_, and _email_.  
+  Optional fields include _mobile number_, _date of birth_, and _address_.
+- **User Login**  
+  Secure authentication using registered _username_ and _password_.
+
+### Task Operations
+
+- **Add New Task**  
+  Create tasks with ease from the dashboard.
+
+- **Edit Existing Tasks**  
+  Inline editing to update task details quickly.
+
+- **Update Task Status**  
+  Toggle between **To Do** and **Completed**.
+
+- **Soft Delete Tasks**  
+  Removed tasks are not permanently deleted — users can view deleted items and restore them at any time.
+
+---
+
+## Tech Stack
+
+| Layer        | Technology                  |
+| ------------ | --------------------------- |
+| **Frontend** | Angular                     |
+| **Backend**  | .NET (C#)                   |
+| **Database** | Microsoft SQL Server (SSMS) |
+
+---
+
+## Highlights
+
+- Clean, modern UI built with Angular components.
+- Robust backend APIs developed with .NET.
+- Soft-delete logic ensures accidental deletions are recoverable.
+- Unique task handling with pagination, sorting, and status toggling.
+- Secure authentication flow with route guards.
+
+---
 
 # TodoAppFrontend
 
