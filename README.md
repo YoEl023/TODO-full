@@ -1,6 +1,6 @@
 # ToDo List Web Application
 
-A streamlined task-management platform designed to help users capture, track, update, and organize their daily tasks with ease. The application supports full task lifecycle operations, from creation to soft-deletion, offering a simple yet efficient productivity workflow.
+A task-management application to create, track, update, and organize tasks. 
 
 ---
 
@@ -26,7 +26,7 @@ A streamlined task-management platform designed to help users capture, track, up
   Toggle between **To Do** and **Completed**.
 
 - **Soft Delete Tasks**  
-  Removed tasks are not permanently deleted — users can view deleted items and restore them at any time.
+  Removed tasks are not permanently deleted — users can ask admin to restore deleted items.
 
 ---
 
@@ -37,16 +37,6 @@ A streamlined task-management platform designed to help users capture, track, up
 | **Frontend** | Angular                     |
 | **Backend**  | .NET (C#)                   |
 | **Database** | Microsoft SQL Server (SSMS) |
-
----
-
-## Highlights
-
-- Clean, modern UI built with Angular components.
-- Robust backend APIs developed with .NET.
-- Soft-delete logic ensures accidental deletions are recoverable.
-- Unique task handling with pagination, sorting, and status toggling.
-- Secure authentication flow with route guards.
 
 ---
 
